@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+<!-- Exercise borrows heavilty from: https://en.wikiversity.org/wiki/Web_Design/CSS_challenges
+ -->  
+ 
+    <title>ICE - HTML</title>
+<!--     Play with this next line of code - it automatically refreshes the page. -->
+    <meta http-equiv="refresh" content="1000" >
+  </head>
+  <body>
+  	<h1> Dave Singh </h1>
+  	<a href="https://www.si.umich.edu/">I do not have any partners on this ICE. Linked to UMSI Page</a>
+  	<p> Spring Break is coming up! If you are looking for some inspiration as to where to travel, than look no further. Below are some beautiful pictures to get your creative juices flowing! </p>
+  	<img src="local/Nlights.jpg" alt = "Northern Lights"/>
+  	<img src="local/waterfall.jpg" alt = "Beautiful Waterfall"/>
+  	<img src = "https://www.nationalparks.org/sites/default/files/iStock_000042545368_Full.jpg" alt = "Grand Canyon"/>
+    <p> Answer the following so that we can see if we can make any reccomendations for you! </p>
+
+  	<form>
+		Name:
+		<input type="text" name="name" id = "name"><br>
+		<label for="dob">DOB:</label>
+		<input type="date" name="DOB" id = "dob"><br>
+
+    Please choose your gender: <br>
+    <input type ="radio" name="gender" value="Male"> Male <br>
+    <input type='radio' name='gender' value='Female'> Female <br>
+
+		Please enter your choice of vacation spot:<br>
+		<input type="submit" name="spot" value="Beach"> Beach<br>
+  	<input type="submit" name="spot" value="Sight-Seeing"> Sight-Seeing<br>
+  	<input type="submit" name="spot" value="Camping"> Camping <br>
+
+  	Please enter your choice of travel:<br>
+		<input type="radio" name="travel" value="Hike"> Hike<br>
+  	<input type="radio" name="travel" value="Flying"> Flying<br>
+  	<input type="radio" name="travel" value="Driving"> Driving<br>
+	</form>
+
+  <p> Still not conviced you need a vacation? Give this video and audio clip a shot! </p>
+  <p>
+   HTML WRITE UP: 2. The only obvious difference I can see from the 3 different browsers I checked (Chrome, Safari, and Firefox) is visible at the bottom of the webpage where I placed my video and audio clip. Each browser has a slightly different control panel for these file types. Chrome has a light background, safari had no bar at all for the video clip, and a dark, rounded one for the audio, while chrome had a dark background and boxier look to it. The rest of the page seemed pretty standard.
+
+3. My code did not call the field into focus when the term was clicked. This is important for a good user-experience as the words are easier to see then the little circles, so some people may have trouble seeing how to choose an option if not allowed to just click the word.
+
+6. No new issues found
+</p>
+
+	<video width="320" height="240" controls>
+ 		<source src="local/Travel.mp4" type="video/mp4">
+		<source src="local/Travel.ogg" type="video/ogg">
+		Your browser does not support the video tag.
+	</video>
+
+	<audio controls>
+		<source src="local/noise.ogg" type="audio/ogg">
+		<source src="local/noise.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+</audio>
+
+  </body>
