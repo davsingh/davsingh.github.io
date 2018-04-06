@@ -36,6 +36,7 @@ header, footer, .logo {
 	color: #DDDDDA; 
 }
 body{
+	background-repeat: no-repeat;
 	display: flex;
 	flex-direction: column;
 }
@@ -75,16 +76,20 @@ h6{
 
 /*-----HEADER & NAVIGATION-----*/
 header{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Arial', sans-serif;
 	font-size: 105%;
     box-shadow: 0px 18px 26px 1px rgba(141, 141, 139, .75);
     width: 100%;
     position: fixed;
 }
 /*mobile-first*/
+.top-nav{
+	background-image: url('http://camelot-hobbies.com/Image/covers/nba-street-vol-2/nba-street-vol-2-banner556709.jpg');
+}
+
 .top-nav ul{
 	list-style-type: none;
-	padding: 0;
+	padding-top: 0px;
 	background-color: #211D24; /*CHANGE*/
 	margin: 0;
 	display: block;
@@ -97,6 +102,7 @@ header{
 	color: #DDDDDA; /*CHANGE*/
 	text-decoration: none;
 	padding: .5em 1em;
+	margin:2px;
 	display: block;
 	text-align: center;
 	flex: auto;
@@ -145,6 +151,7 @@ header{
   	position: relative;
   	top: 1px;
 }
+
 /*implement menu toogle*/
 .top-nav.toggle-open ul{
 	display: block;
@@ -153,6 +160,7 @@ header{
 .main {
 	height: 50%;
 }
+
 .intro{
 	text-align: center;
 	margin-bottom: 45px;
@@ -219,8 +227,10 @@ footer p{
 .main-content-home{
 	margin-top: 250px;
 }
+
 .home-flag{
 	background-color: #17BEBB;
+	text-align: center;
 	color: #DDDDDA;
 	display: flex;
 	flex-direction: column;
@@ -228,6 +238,21 @@ footer p{
 	margin: auto;
 	padding: 1.5em;
 	box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
+}
+
+.aside{
+	text-align: center;
+	margin: auto;
+	margin-top: 15px;
+	margin-left: 10px;
+	padding-bottom: 70px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.align{
+	display: block;
 }
 
 /*-----IMAGES PAGE ------*/
