@@ -163,10 +163,10 @@ header{
 
 .intro{
 	text-align: center;
-	margin-bottom: 45px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .intro p{
-	margin-top: 15px;
 	font-size: 28px;
 	padding: 0;
 	color: gold;
@@ -229,7 +229,7 @@ footer p{
 }
 
 .home-flag{
-	background-color: #17BEBB;
+	background-color: rgba(0,0,0,0.7);
 	text-align: center;
 	color: #DDDDDA;
 	display: flex;
@@ -238,6 +238,10 @@ footer p{
 	margin: auto;
 	padding: 1.5em;
 	box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
+}
+
+.home-flag p{
+	color: rgb(211,211,211);
 }
 
 .aside{
@@ -250,6 +254,12 @@ footer p{
 	flex-direction: column;
 }
 
+.aside p{
+	margin-top: 2px;
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
+}
 
 .align{
 	display: block;
@@ -272,6 +282,10 @@ footer p{
 
 .crafts h1 span {
 	background-color: blue;
+}
+
+.photo-grid{
+	margin-top: 30px;
 }
 .photo-cell{
 	margin-bottom: 2%;
